@@ -10,5 +10,6 @@
  
  Perfil
  ```
- 
- Cada um com seu arquivo .feature com os cenários de teste e os Bugs listado em um arquivo .txt, tudo na pasta  `Marvelopedia` 
+
+ ### Cada um com seu arquivo .feature com os cenários de teste.
+ ### Os Bugs listado em um arquivo .txt, tudo na pasta  `Marvelopedia` 
