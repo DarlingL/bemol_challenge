@@ -1,7 +1,7 @@
 # bemol_challenge
 
 
- Escolhi os seguintes escopos para Teste:
+ ### Escolhi os seguintes escopos para Teste:
 
  ``` 
  Login
@@ -12,4 +12,5 @@
  ```
 
  ### Cada um com seu arquivo .feature com os cenários de teste.
- ### Os Bugs listado em um arquivo .txt, tudo na pasta  `Marvelopedia` 
+ ### Os Bugs listado em um arquivo .txt.
+ ### Todo conteúdo na pasta  `Marvelopedia` 
