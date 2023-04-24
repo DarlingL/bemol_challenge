@@ -1,0 +1,6 @@
+1. A troca de senha não funciona
+2. Ao preencher dados de cartão, não valida a data de vencimento
+3. É possivel finalizar a comprar mesmo sem preencher dados do cartão
+4. O botão adicionar fica ativo mesmo com a quantidade zerada de quadrinhos e por default já deveria vir com a quantida 1, está vindo zerada
+5. Pedidos não carregam
+6. Alguns quadrinhos com valor zerado
