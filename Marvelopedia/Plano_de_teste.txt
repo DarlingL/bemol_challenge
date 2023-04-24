@@ -1,0 +1,26 @@
+Plano de Teste 
+Por se tratar de uma aplicação mobile que consome dados via API, seria bom
+ter testes em todas as camadas, unitários API e Mobile, complementando também com testes
+de usabilidade e até perfomance.
+
+
+1. Teste unitários por plataforma (Android iOS), definir uma cobertura minima por PR 
+e com o auxilio de uma ferramenta (sonarcloud ou parecida) definir outras métricas juntos
+para aumentar a qualidade de código que é desenvolvido.
+
+2. Testes de API/SchemaJson(Automação), a aplicação consome dados via API dessa forma
+temos que garantir que esses serviços funcionem de forma esperada 
+e que dados cheguem como no formato definido para o front.
+
+3. Teste Mobile(Automação), ajudando a validar a experiencia do usuário assim garantindo 
+que sua experiencia esteja dentro do esperado no que foi desenvolvido.
+
+Esses tipos de teste ajudar a ter uma confibilidade maior na aplicação e claro que além disso 
+devemos acompanhar as métricas de qualidade para tomadas de decisão.
+
+Alguns pontos relevantes
+
+- Correlacionar incidentes com MS's responsaveis, assim conferindo as métricas e testes relacionado aquele problema, em busca de aperfeiçoamento.
+- Dados de analytics, devices mais usados, devices com mais problemas e versões de SO, ajudando na definição de quais aparelhos precisam de testes especificos.
+- Analisar o fluxo de acessos na aplicação, garantido que quando exigido a aplicação aguente a quantidade de usuários.
+- Analise de Crashs
