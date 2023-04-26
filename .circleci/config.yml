@@ -35,7 +35,7 @@ jobs:
           command: "sudo npm install -g npm"
       - run:
           name: install-packages
-          command: npm install --safe
+          command: "cd API && npm install --safe"
       - run:
           name: install supertest
           command: "sudo npm install supertest -g"
