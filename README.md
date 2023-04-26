@@ -18,6 +18,7 @@ __________________________________________
 
  #### Cada um com seu arquivo .feature com os cenários de teste.
  #### Os Bugs listados no arquivo bug.txt
+ #### Considerações sobre as automações no arquivo resumo.txt
  #### Todo conteúdo na pasta  `Marvelopedia` 
  ______________________________________
 

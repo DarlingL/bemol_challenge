@@ -78,6 +78,7 @@ describe("Cenários de Testes - Bemol", function() {
     .expect("Content-Type", /json/)
     .end(function(err, res) {
       expect(res.status).to.be.eql(201);
+      expect(res.body.message).to.be.eql('Cadastro realizado com sucesso');
       joiAssert(res.body, schemaUserCriado);
       id_produto = (res.body._id)
       done(err);

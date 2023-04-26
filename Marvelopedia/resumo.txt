@@ -1,0 +1,16 @@
+Automação Web:
+- Utilizei o Capybara por ser o framework web que mais tive contato
+- Usei pageObjects com sitePrism
+- Não conclui o cenário da Trivago
+- Cucumber tem o report proprio (usando o --publish) mas poderia ter adicionado algum outro
+- Faltou criar os perfis para diferenciar Teste Local e Teste Headless(CI), está default para CI.
+Para rodar local basta comentar as linhas 9, 10 e 11 do arquivo 'env.rb' 
+
+Automação API:
+- Utilizei um combinado de Frameworks em node.js, por ter mais familiaridade 
+- Utilizei a validação de Schema/Json 
+- Criei uma função para o Login
+- Deixei dados de criação dinamicos
+
+
+Toda integração roda no CircleCI
