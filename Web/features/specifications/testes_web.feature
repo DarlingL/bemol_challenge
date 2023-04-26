@@ -3,6 +3,7 @@
 
 Funcionalidade: Testes Web
 
+@done
 Esquema do Cenário: Realizar uma pesquisa no site do Correios
 Dado que esteja na tela de pesquisa do Correios
 Quando realizar a pesquisar "<Pesquisa>"
