@@ -27,7 +27,7 @@ jobs:
   testesapi:
     docker:
       # replace with your preferred image
-      - image: circleci/node:18.14.1
+      - image: cimg/node:18.14.1
     steps: 
       - checkout
       - run:
