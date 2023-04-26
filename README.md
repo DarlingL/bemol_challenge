@@ -1,4 +1,6 @@
 # bemol_challenge
+### CircleCI [![CircleCI](https://dl.circleci.com/status-badge/img/gh/DarlingL/bemol_challenge/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/DarlingL/bemol_challenge/tree/main)
+
  ### Plano de Teste descrito no Plano_de_teste.txt
  
 
