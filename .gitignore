@@ -1,0 +1,4 @@
+Gemfile.lock
+API/package-lock.json
+API/mochawesome-report
+API/node_modules

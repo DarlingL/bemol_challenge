@@ -20,7 +20,7 @@ devemos acompanhar as métricas de qualidade para tomadas de decisão.
 
 Alguns pontos relevantes
 
-- Correlacionar incidentes com MS's responsaveis, assim conferindo as métricas e testes relacionado aquele problema, em busca de aperfeiçoamento.
+- Correlacionar incidentes com MS's responsaveis, assim conferindo as métricas e testes relacionado aquele problema. (Exemplo: Um MS com baixa cobertura de teste apresenta mais incidentes, que um que possui alta cobertura).
 - Dados de analytics, devices mais usados, devices com mais problemas e versões de SO, ajudando na definição de quais aparelhos precisam de testes especificos.
 - Analisar o fluxo de acessos na aplicação, garantido que quando exigido a aplicação aguente a quantidade de usuários.
 - Analise de Crashs
