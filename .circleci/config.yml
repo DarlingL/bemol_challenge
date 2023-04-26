@@ -1,0 +1,68 @@
+version: '2.1'
+orbs:
+  browser-tools: circleci/browser-tools@1.4.1
+jobs:
+  working_directory: ~/repo
+  testesweb:
+    docker:
+      # replace with your preferred image
+      - image: cimg/ruby:2.7.6
+    steps:
+      - browser-tools/install-browser-tools:
+          install-chrome: true 
+          install-chromedriver: true 
+          install-firefox: false 
+          install-geckodriver: false 
+      - checkout
+      - run:
+          name: install bundler
+          command: "sudo gem install bundler"
+      - run:
+          name: install-dependencies
+          command: "sudo bundle install"
+      - run:
+          name:  Run Web Tests Capybara
+          command: "cd Web && cucumber"
+
+  testesapi:
+    docker:
+      # replace with your preferred image
+      - image: circleci/node:10.16.3
+    steps: 
+      - checkout
+      - run:
+          name: update-npm
+          command: "sudo npm install -g npm"
+      - run:
+          name: install-packages
+          command: npm install --safe
+      - run:
+          name: install supertest
+          command: "sudo npm install supertest -g"
+      - run:
+          name: install mocha
+          command: "sudo npm install mocha -g"
+      - run:
+          name: install chai
+          command: "sudo npm install chai -g"
+      - run:
+          name: install joi          
+          command: "sudo npm install joi -g"
+      - run:
+          name: install joi-assert
+          command: "sudo npm install joi-assert -g"
+      - run:
+          name: install mochawesome
+          command: "sudo npm install mochawesome -g"
+      - run:
+          name: install faker
+          command: "sudo npm install faker -g"
+      - run:
+          name: test
+          command: "cd API && npm run exec_teste"
+
+workflows:
+  integration_ci:
+    jobs:
+      -   testesweb
+      -   testesapi
