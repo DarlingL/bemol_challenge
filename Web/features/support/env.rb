@@ -6,9 +6,9 @@ require 'capybara/rspec'
 Capybara.register_driver :selenium do |app|
   Capybara::Selenium::Driver.new(app,
   :browser => :chrome,
-  # :options => Selenium::WebDriver::Chrome::Options.new(
-  #   args: %w[headless no-sandbox disable-gpu disable-dev-shm-usage window-size=1280x720]
-  # )
+  :options => Selenium::WebDriver::Chrome::Options.new(
+    args: %w[headless no-sandbox disable-gpu disable-dev-shm-usage window-size=1280x720]
+  )
 )
 end
 
